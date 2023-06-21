@@ -1,31 +1,37 @@
 import PropTypes from 'prop-types'
 import { FACE } from '../../../../assets/constants'
 import Selection from '../Selection'
+import bauImg from './../../../../assets/img/selection-bau-active.png'
+import cuaImg from './../../../../assets/img/selection-cua-active.png'
+import tomImg from './../../../../assets/img/selection-tom-active.png'
+import caImg from './../../../../assets/img/selection-ca-active.png'
+import gaImg from './../../../../assets/img/selection-ga-active.png'
+import naiImg from './../../../../assets/img/selection-nai-active.png'
 
 const SELECTIONS = [
   {
-    img: '../../../../assets/img/selection-bau-active.png',
-    value: FACE.NAI,
-  },
-  {
-    img: '../../../../assets/img/selection-bau-active.png',
     value: FACE.BAU,
+    img: bauImg,
   },
   {
-    img: '../../../../assets/img/selection-ga-active.png',
-    value: FACE.GA,
-  },
-  {
-    img: '../../../../assets/img/selection-ca-active.png',
-    value: FACE.CA,
-  },
-  {
-    img: '../../../../assets/img/selection-cua-active.png',
     value: FACE.CUA,
+    img: cuaImg,
   },
   {
-    img: '../../../../assets/img/selection-tom-active.png',
     value: FACE.TOM,
+    img: tomImg,
+  },
+  {
+    value: FACE.CA,
+    img: caImg,
+  },
+  {
+    value: FACE.GA,
+    img: gaImg,
+  },
+  {
+    value: FACE.NAI,
+    img: naiImg,
   },
 ]
 

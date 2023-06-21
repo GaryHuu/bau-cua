@@ -1,0 +1,73 @@
+:root {
+  ---dice-dice: 100px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  height: 100vh;
+  background-color: #b4cfff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  /* background-color: #F7C7B6; */
+}
+
+.dice {
+  position: relative;
+  width: var(---dice-dice);
+  height: var(---dice-dice);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.dice div {
+  position: absolute;
+  width: var(---dice-dice);
+  height: var(---dice-dice);
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.dice .bau {
+  background-image: url(assets/img/dice-bau.png);
+  transform: translateZ(calc((var(---dice-dice) / 2)));
+  background-color: #f8ef67;
+}
+
+.dice .cua {
+  background-image: url(assets/img/dice-cua.png);
+  transform: translateZ(calc(0px - calc((var(---dice-dice) / 2))))
+    rotateY(180deg);
+  background-color: #fbf9f9;
+}
+
+.dice .tom {
+  background-image: url(assets/img/dice-tom.png);
+  transform: rotateX(90deg) translateZ(calc((var(---dice-dice) / 2)));
+  background-color: #45bbb0;
+}
+
+.dice .ca {
+  background-image: url(assets/img/dice-ca.png);
+  transform: rotateX(-90deg) translateZ(calc((var(---dice-dice) / 2)));
+  background-color: #b3c1d1;
+}
+
+.dice .ga {
+  background-image: url(assets/img/dice-ga.png);
+  transform: rotateY(-90deg) translateZ(calc((var(---dice-dice) / 2)));
+  background-color: #4081bb;
+}
+
+.dice .nai {
+  background-image: url(assets/img/dice-nai.png);
+  transform: rotateY(90deg) translateZ(calc((var(---dice-dice) / 2)));
+  background-color: #fbbd64;
+}

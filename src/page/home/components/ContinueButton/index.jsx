@@ -27,7 +27,7 @@ function ContinueButton({ onClick = () => {} }) {
         style={{
           height: '100%',
         }}
-        src='/src/assets/img/reload.svg'
+        src='../../../../assets/img/reload.svg'
         alt=''
       />
     </button>

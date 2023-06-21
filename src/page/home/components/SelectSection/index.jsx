@@ -4,27 +4,27 @@ import Selection from '../Selection'
 
 const SELECTIONS = [
   {
-    img: '/src/assets/img/selection-nai-active.png',
+    img: '../../../../assets/img/selection-bau-active.png',
     value: FACE.NAI,
   },
   {
-    img: '/src/assets/img/selection-bau-active.png',
+    img: '../../../../assets/img/selection-bau-active.png',
     value: FACE.BAU,
   },
   {
-    img: '/src/assets/img/selection-ga-active.png',
+    img: '../../../../assets/img/selection-ga-active.png',
     value: FACE.GA,
   },
   {
-    img: '/src/assets/img/selection-ca-active.png',
+    img: '../../../../assets/img/selection-ca-active.png',
     value: FACE.CA,
   },
   {
-    img: '/src/assets/img/selection-cua-active.png',
+    img: '../../../../assets/img/selection-cua-active.png',
     value: FACE.CUA,
   },
   {
-    img: '/src/assets/img/selection-tom-active.png',
+    img: '../../../../assets/img/selection-tom-active.png',
     value: FACE.TOM,
   },
 ]

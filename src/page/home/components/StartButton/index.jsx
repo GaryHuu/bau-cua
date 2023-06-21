@@ -31,7 +31,7 @@ function StartButton({ onClick = () => {} }) {
       >
         Chiến !!!
       </p>
-      <img src='/src/assets/img/fire.svg' alt='' />
+      <img src='../../../../assets/img/fire.svg' alt='' />
     </button>
   )
 }

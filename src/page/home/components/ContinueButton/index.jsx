@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import reloadIcon from './../../../../assets/img/reload.svg'
 
 function ContinueButton({ onClick = () => {} }) {
   return (
@@ -27,7 +28,7 @@ function ContinueButton({ onClick = () => {} }) {
         style={{
           height: '100%',
         }}
-        src='../../../../assets/img/reload.svg'
+        src={reloadIcon}
         alt=''
       />
     </button>

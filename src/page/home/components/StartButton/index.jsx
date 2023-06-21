@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import fireIcon from './../../../../assets/img/fire.svg'
 
 function StartButton({ onClick = () => {} }) {
   return (
@@ -31,7 +32,7 @@ function StartButton({ onClick = () => {} }) {
       >
         Chiến !!!
       </p>
-      <img src='../../../../assets/img/fire.svg' alt='' />
+      <img src={fireIcon} alt='' />
     </button>
   )
 }

@@ -10,8 +10,20 @@ import naiImg from './../../../../assets/img/selection-nai-active.png'
 
 const SELECTIONS = [
   {
+    value: FACE.NAI,
+    img: naiImg,
+  },
+  {
     value: FACE.BAU,
     img: bauImg,
+  },
+  {
+    value: FACE.GA,
+    img: gaImg,
+  },
+  {
+    value: FACE.CA,
+    img: caImg,
   },
   {
     value: FACE.CUA,
@@ -21,18 +33,7 @@ const SELECTIONS = [
     value: FACE.TOM,
     img: tomImg,
   },
-  {
-    value: FACE.CA,
-    img: caImg,
-  },
-  {
-    value: FACE.GA,
-    img: gaImg,
-  },
-  {
-    value: FACE.NAI,
-    img: naiImg,
-  },
+
 ]
 
 function SelectSection({ result = [], isWaiting = false }) {
